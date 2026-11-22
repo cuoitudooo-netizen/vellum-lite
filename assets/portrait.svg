@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-label="Portrait illustration of Maya Tran">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D7E3D4"/>
+      <stop offset="50%" stop-color="#CDD8CB"/>
+      <stop offset="100%" stop-color="#E6D6C6"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#EBC4A8"/>
+      <stop offset="100%" stop-color="#D9A88A"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#3D2B24"/>
+      <stop offset="100%" stop-color="#1C1411"/>
+    </linearGradient>
+    <linearGradient id="sweater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5E8D6"/>
+      <stop offset="100%" stop-color="#E3CDB3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="800" fill="url(#bg)"/>
+  <circle cx="530" cy="90" r="190" fill="#F4EFE6" opacity="0.4"/>
+  <circle cx="60" cy="720" r="210" fill="#2F5D3A" opacity="0.1"/>
+
+  <path fill="url(#hair)" d="M168 300
+    C170 175 230 108 320 106
+    C412 104 474 176 476 300
+    C502 340 512 430 498 560
+    C470 620 430 680 400 760
+    L240 760
+    C210 680 168 610 144 540
+    C128 430 142 345 168 300 Z"/>
+
+  <path fill="url(#sweater)" d="M62 800
+    C80 590 200 512 320 512
+    C440 512 560 590 578 800 Z"/>
+  <path fill="#EEDCC6" d="M248 548
+    C280 620 320 638 320 638
+    C320 638 360 620 392 548
+    C360 530 280 530 248 548 Z"/>
+
+  <path fill="#D4A186" d="M282 448 C292 522 348 522 358 448 L350 548 C338 568 302 568 290 548 Z"/>
+  <!-- cover hair that would otherwise peek under the chin -->
+  <path fill="#D7A88C" d="M268 455 Q320 505 372 455 L358 530 C340 555 300 555 282 530 Z"/>
+
+  <ellipse cx="204" cy="368" rx="20" ry="30" fill="#D7A88C"/>
+  <ellipse cx="436" cy="368" rx="20" ry="30" fill="#D7A88C"/>
+  <ellipse cx="204" cy="370" rx="11" ry="18" fill="#C99278" opacity="0.45"/>
+  <ellipse cx="436" cy="370" rx="11" ry="18" fill="#C99278" opacity="0.45"/>
+
+  <ellipse cx="320" cy="352" rx="116" ry="138" fill="url(#skin)"/>
+
+  <path fill="#1C1411" d="M206 250 C186 300 182 390 198 500 C214 455 214 380 228 300 C220 270 214 250 206 250 Z"/>
+  <path fill="#1C1411" d="M434 250 C454 300 458 390 442 500 C426 455 426 380 412 300 C420 270 426 250 434 250 Z"/>
+
+  <path fill="url(#hair)" d="M204 255
+    C210 150 250 118 320 116
+    C392 114 434 152 440 255
+    C418 210 392 198 360 214
+    C340 168 300 176 286 214
+    C252 196 224 214 204 255 Z"/>
+
+  <path d="M246 320 C272 308 298 309 314 322" fill="none" stroke="#3A2A24" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M328 322 C346 308 374 308 402 322" fill="none" stroke="#3A2A24" stroke-width="6.5" stroke-linecap="round"/>
+
+  <ellipse cx="276" cy="356" rx="15.5" ry="14.5" fill="#2A1E1A"/>
+  <ellipse cx="368" cy="356" rx="15.5" ry="14.5" fill="#2A1E1A"/>
+  <circle cx="281" cy="351" r="4.2" fill="#F7F0E8"/>
+  <circle cx="373" cy="351" r="4.2" fill="#F7F0E8"/>
+  <circle cx="272" cy="360" r="1.6" fill="#F7F0E8" opacity="0.7"/>
+  <circle cx="364" cy="360" r="1.6" fill="#F7F0E8" opacity="0.7"/>
+
+  <path d="M320 358 C317 384 312 396 306 404" fill="none" stroke="#C49278" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M298 428 C316 442 340 442 350 428" fill="none" stroke="#B56B62" stroke-width="5" stroke-linecap="round"/>
+  <path d="M300 429 C316 436 338 436 348 429" fill="#D09086" opacity="0.4"/>
+
+  <ellipse cx="248" cy="398" rx="24" ry="13" fill="#D9897A" opacity="0.28"/>
+  <ellipse cx="396" cy="398" rx="24" ry="13" fill="#D9897A" opacity="0.28"/>
+</svg>
