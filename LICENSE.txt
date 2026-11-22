@@ -1,0 +1,20 @@
+Vellum Lite — Student Portfolio Website Template
+Copyright (c) 2026 Cuoitudo (cuoitudo.gumroad.com)
+
+FREE LITE LICENSE
+
+You may:
+  - Use this template for one personal student portfolio or résumé website
+  - Edit the content, photo, and wording
+  - Publish that website for free (GitHub Pages, Netlify, Vercel, etc.)
+
+You must:
+  - Keep the footer credit link to https://cuoitudo.gumroad.com
+
+You may not:
+  - Remove or hide the credit link
+  - Resell, republish, or give away the template itself
+  - Use it to build websites for paying clients
+
+The full version (3 color themes, more sections, no credit required) is available at:
+https://cuoitudo.gumroad.com

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ivory">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Student portfolio website of Maya Tran. Built with Vellum Lite." />
+  <title>Maya Tran — Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav" id="nav">
+      <a class="wordmark" href="#top" id="wordmark-name">Maya Tran</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div>
+        <div class="availability reveal">
+          <span class="dot" aria-hidden="true"></span>
+          <span id="availability">Available for Summer 2027 internships</span>
+        </div>
+        <h1 class="hero-name reveal d1" id="name">Maya<br><em>Tran</em></h1>
+        <p class="hero-lead reveal d2" id="headline">Business Analytics student</p>
+        <p class="hero-summary reveal d2" id="summary">I help teams make sense of messy data and tell a clear story with it.</p>
+        <div class="hero-actions reveal d3">
+          <a class="btn btn-primary" href="#projects">View selected work</a>
+          <a class="btn btn-ghost" id="btn-cv" href="#">Download résumé</a>
+        </div>
+        <div class="hero-meta reveal d4">
+          <span><b id="meta-school">Harbor University</b></span>
+          <span id="meta-year">Class of 2027</span>
+          <span id="meta-location">Melbourne, Australia</span>
+        </div>
+      </div>
+      <div class="hero-photo reveal d2">
+        <div class="blob" aria-hidden="true"></div>
+        <div class="frame">
+          <img id="photo" src="assets/portrait.svg" alt="Illustrated portrait of Maya Tran" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="about-grid">
+          <div class="section-kicker">
+            <p class="kicker">About</p>
+            <h2 class="serif" style="font-size:clamp(1.8rem,3vw,2.4rem);font-weight:500;letter-spacing:-0.03em;margin-top:0.35rem;">A short introduction</h2>
+          </div>
+          <div>
+            <div id="about-copy" class="about-copy"></div>
+            <div class="facts" id="facts"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Education</p>
+          <h2>Where I studied</h2>
+        </div>
+        <div class="timeline" id="education-list"></div>
+      </div>
+    </section>
+
+
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Selected work</p>
+          <h2>Projects worth opening</h2>
+        </div>
+        <div class="project-grid" id="projects-list"></div>
+      </div>
+    </section>
+
+
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact-box">
+          <div>
+            <p class="kicker">Contact</p>
+            <h2 id="contact-title">I’d love to hear from you.</h2>
+            <p id="contact-copy">Write to maya.tran@example.com — I read every note.</p>
+          </div>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>© <span id="year"></span> <span id="footer-name">Maya Tran</span>. <span id="footer-note">Designed for internships, scholarships, and first roles.</span></p>
+      <p class="credit">Made with <a href="https://cuoitudo.gumroad.com" rel="noopener">Vellum</a> — get the full student portfolio template</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
